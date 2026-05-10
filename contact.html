@@ -71,8 +71,14 @@
               method="POST"
               action="/bedankt.html"
               data-netlify="true"
+              netlify
+              netlify-honeypot="bot-field"
             >
               <input type="hidden" name="form-name" value="contact" />
+              <p class="d-none">
+                <label>Laat dit veld leeg: <input name="bot-field" /></label>
+              </p>
+
               <div class="mb-3">
                 <label for="naam" class="form-label">Naam</label>
                 <input
@@ -121,9 +127,9 @@
                 <p><strong>School:</strong> AP Hogeschool</p>
               </div>
               <img
-                src="assets/images/profielfoto.png"
+                src="assets/images/bashscripting.png"
                 alt="Profielfoto Ahmed Abunaja"
-                class="profiel-foto rounded-1 border flex-shrink-0 object-fit-cover"
+                class="professionele-foto rounded-1 border flex-shrink-0 object-fit-cover"
               />
             </div>
           </section>
