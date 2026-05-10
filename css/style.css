@@ -78,6 +78,10 @@ figure img,
   object-fit: cover;
 }
 
+.aside-box {
+  height: 450px;
+}
+
 .form-control {
   background: #0f172a;
   border-color: #334155;
